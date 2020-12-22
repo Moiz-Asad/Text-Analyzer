@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Text Analyzer</title>
+    <!-- Bootrstap styling/linking -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- Custom JS -->
+    <script src="analyzer.js" defer></script>
+</head>
+<body>
+    <div class="container-flush bg-dark text-light" style="padding: 4rem 4rem;">
+        <h1 class="display-4">Do You Want information about a Paragraph?</h1>
+        <p class="lead">You are at the right place check out our Paragraph Analyzer.
+        </p>
+        <a href="" class="btn btn-primary btn-lg my-5">Check Out Github</a>
+    </div>
+    <div class="container-flush">
+        <h1 id="analyzer" class="display-4 text-center my-5 py-4 bg-dark text-light">Text Analyzer</h1>
+    </div>
+    <div class="container-flush" id="disp1">
+        
+        <div class="input-group">
+            <textarea name="Text" placeholder="Enter Text Here Then Click Analyze" id="TextInp" class="form-control mx-3" rows="15" cols="13" aria-label="With textarea"></textarea>
+            <button class="btn btn-primary btn-lg mx-3" id="prop">Analyze</button>
+        </div>
+    </div>
+    <div class="container-flush my-5 mx-5" id="displ2">
+        <h4 class="display-5 mx-3" id="charc"></h4>
+        <h4 class="display-5 mx-3" id="charcns"></h4>
+        <h4 class="display-5 mx-3" id="wc"></h4>
+        <h4 class="display-5 mx-3" id="sntc"></h4>
+        <h4 class="display-5 mx-3" id="spc"></h4>
+        <h4 class="display-5 mx-3" id="vowc"></h4>
+        <h4 class="display-5 mx-3" id="consc"></h4>
+        <button class="btn btn-primary btn-lg mx-3 my-5 px-5" id="bk">Back</button>
+    </div>
+</body>
+    <footer class="bg-dark text-center text-light text-lg-start mt-5" style="height: 6rem;">
+        <div class="text-center p-3">©2020 Copyright , Made By MZ</div>
+    </footer>
+</html>
